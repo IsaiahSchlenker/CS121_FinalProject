@@ -113,6 +113,7 @@ public class Investor{
 		balHistory.add(balance+stockHolding*sd.getCurrentPrice());
 		double newPrice = sd.getCurrentPrice();
 		System.out.printf("Return last year: %%%.2f%n", (100*((newPrice/oldPrice)-1)));
+		viewBalance();
 	}//end nextYear
 	
 	public void viewBalance(){

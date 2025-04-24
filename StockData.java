@@ -3,7 +3,7 @@ import java.util.*;
 public class StockData{
 	
 	protected double mean = .2562;
-	protected double variance = .5666;
+	protected double variance = .4666;
 	protected double currentPrice = 100;
 	protected Volatility vol = new Volatility();
 	protected int currentYear = 2025;

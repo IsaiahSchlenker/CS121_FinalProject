@@ -60,21 +60,17 @@ public class Volatility{
 	
 	public void applyHeadline(){
 		if(currentHeadline == 0){
-			System.out.println("choice 0");
 			meanAdjustment = 0;
 			varianceAdjustment = 0;
 		}else if(currentHeadline == 1 || currentHeadline == 2 || currentHeadline == 4){
-			System.out.println("choice 1");
 			meanAdjustment = 0;
 			varianceAdjustment = .2;
 		}else if(currentHeadline == 3 || currentHeadline == 5 || currentHeadline == 7 || currentHeadline == 10){
-			System.out.println("choice 2");
 			meanAdjustment = .1;
-			varianceAdjustment = -.2;
+			varianceAdjustment = -.3;
 		}else{
-			System.out.println("choice 3");
 			meanAdjustment = -.4;
-			varianceAdjustment = -.2;
+			varianceAdjustment = -.3;
 		}//end if
 	}//end applyHeadline
 }// end Volatility
